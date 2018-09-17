@@ -116,7 +116,7 @@ Heron.layout = {
                 {
                     xtype: 'hr_mappanel',
                     id: 'hr-map',
-                    title: 'Aplikasi Sistem Informasi Geospasial Tematik ATR/BPN',
+                    title: 'Aplikasi Sistem Informasi Geospasial WP3WT',
                     region: 'center',
                     collapsible: false,
                     border: false,

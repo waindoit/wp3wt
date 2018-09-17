@@ -1585,7 +1585,7 @@ Heron.options.map.toolbar = [
 Ext.namespace("Heron.options.info");
 Heron.options.info.html =
         '<div class="hr-html-panel-body" style="background:none;">' +
-                '<center><b>Aplikasi Sistem Informasi Geospasial Tematik ATR/BPN</b></center></br>'+
+                '<center><b>Aplikasi Sistem Informasi WP3WT</b></center></br>'+
                 '<center><img src="img/logo_bpn.png" style="width:160px;margin-top:25px;" /></center></br>'+
                 '<center><b>KEMENTERIAN AGRARIA DAN TATA RUANG/BPN</b></center></br>'+
                 '</div>';

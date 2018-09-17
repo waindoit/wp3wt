@@ -245,7 +245,7 @@ Heron.options.map.toolbar = [
                             WGS84 Bounds: -180.0000, -90.0000, 180.0000, 90.0000
                             Projected Bounds: -180.0000, -90.0000, 180.0000, 90.0000
 
-                            http://spatialreference.org/ref/epsg/28992/    
+                            http://spatialreference.org/ref/epsg/28992/
                             EPSG:28992
                             Amersfoort / RD New
                             WGS84 Bounds: 3.3700, 50.7500, 7.2100, 53.4700
@@ -329,7 +329,7 @@ Heron.options.map.toolbar = [
     //                             header: false,
     //                             border: false,
     //                             autoConfig: true,
-    //                             exportFormats: ['CSV', 'XLS', 'GMLv2', 'GeoJSON', 'WellKnownText', 'GeoPackage', 
+    //                             exportFormats: ['CSV', 'XLS', 'GMLv2', 'GeoJSON', 'WellKnownText', 'GeoPackage',
     //                                         {
     //                                             name: 'Esri Shapefile (WGS84 EPSG:4326)',
     //                                             formatter: 'OpenLayersFormatter',
@@ -373,7 +373,7 @@ Heron.options.map.toolbar = [
     {type: "measurelength", options: {geodesic: false}},
     {type: "measurearea", options: {geodesic: false}},
     {type: "-"} ,
-       
+
     {type: "printdialog", options: {url: 'http://kademo.nl/print/pdf28992', windowWidth: 360
         // , showTitle: true
         // , mapTitle: 'My Header - Print Dialog'
@@ -396,27 +396,17 @@ Heron.options.map.toolbar = [
         // , mapPreviewHeight: 400
     }},
     {type: "-"},
-    {type:"any",
-        options: {
-            text:'GeoKKP',
-            iconCls:'action',
-            handler:function () {
-                            window.location = "http://kkp.bpn.go.id";
-                        }
-               
-        }
-      },
-    {type:"any",
-        options: {
-            text:'Logout',
-            iconCls:'action',
-            handler:function () {
-                            window.location = "http://103.49.37.56/bpn";
-                        }
-               
-        }
-      }  
-    
+    // {type:"any",
+    //     options: {
+    //         text:'GeoKKP',
+    //         iconCls:'action',
+    //         handler:function () {
+    //                         window.location = "http://kkp.bpn.go.id";
+    //                     }
+
+    //     }
+    //   }
+
 ];
 
 
