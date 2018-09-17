@@ -611,147 +611,26 @@ Heron.options.layertree.tree = [
     ]
     },
     {
-        text: 'Data Tematik', expanded: false, children: [
+        text: 'Aceh', expanded: false, children: [
         {
-            text: 'Administrasi dan Tempat Penting', expanded: false, children: [
+            text: 'Penguasaan', expanded: false, children: [
 
-            ]
+        ]
         },
         {
-            text: 'Penggunaan Tanah', expanded: false, children: [
+            text: 'Pemilikan', expanded: false, children: [
            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
         ]
         },
         {
-            text: 'Pemanfaatan Tanah', expanded: false, children: [
+            text: 'Penggunaan', expanded: false, children: [
             {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
         ]
         },
         {
-            text: 'Pemilikan Tanah', expanded: false, children: [
+            text: 'Pemanfaatan', expanded: false, children: [
             {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
-
-
-        ]
-        },
-        {
-            text: 'Penguasaan Tanah', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Penguasaan Tanah"},
-            {nodeType: "gx_layer", layer: "Peta Tanah Negara"}
-
-        ]
-
-        },
-        {
-            text: 'Sebaran Bidang Tanah', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Persil Berdasarkan Status Pendaftaran" },
-              {nodeType: "gx_layer", layer: "Peta Sebaran Bidang Tanah" }
-
-        ]
-        },
-        {
-            text: 'Kemampuan Tanah', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kemampuan Tanah"},
-            {nodeType: "gx_layer", layer: "Peta Kemiringan Lereng"}
-
-
-        ]
-        },
-        {
-            text: 'Ekosistem Pesisir', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Ekosistem Pesisir"}
-
-
-        ]
-        },
-        {
-            text: 'Indikasi Tanah Terlantar', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Indikasi Tanah Terlantar"}
-
-
-        ]
-        },
-        {
-            text: 'Peruntukan Tanah Terlantar', expanded: false, children: [
-
-        ]
-        },
-        {
-            text: 'Penguasaan Tanah Negara', expanded: false, children: [
-
-        ]
-        },
-        {
-            text: 'Tanah Kritis', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Tanah Kritis"}
-
-
-        ]
-        },
-        {
-            text: 'Masalah Pertanahan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Masalah Pertanahan"}
-
-
-        ]
-        },
-        {
-            text: 'Lokasi sertifikasi Tanah Massal', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Lokasi Sertipikasi Massal"}
-
-        ]
-        },
-        {
-            text: 'Tanah Aset Pemerintahan dan Desa', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Tanah Aset Pemerintah"}
-        ]
-        },
-        {
-            text: 'Rawan Bencana Alam', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Rawan Bencana Alam"}
-
-
-        ]
-        },
-        {
-            text: 'Tematik Berbasis Data Statistik', expanded: false, children: [
-
-        ]
-        },
-        {
-            text: 'Infrastruktur Wilayah', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Infrastruktur Wilayah"}
-
-
-        ]
-        },
-        {
-            text: 'Tanah Objek Landreform', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Tanah Objek Landreform"}
-
-        ]
-        },
-        {
-            text: 'Kawasan Fungsional', expanded: false, children: [
-
-
-        ]
-        },
-        {
-            text: 'Wilayah Ketinggian', expanded: false, children: [
-
-
-        ]
-        },
-        {
-            text: 'Pola Aliran Sungai', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Perairan Alam"}
-
-        ]
-        },
-        {
-            text: 'RT/RW', expanded: false, children: [
 
 
         ]
@@ -759,20 +638,903 @@ Heron.options.layertree.tree = [
     ]
     },
     {
-        text: 'Data Tanah Terlantar', expanded: false, children: [
+        text: 'Bali', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
 
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
     ]
     },
     {
-        text: 'Data LP2B', expanded: false, children: [
+        text: 'Banten', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
 
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
     ]
     },
     {
-        text: 'Data Pengadaan Tanah', expanded: false, children: [
+        text: 'Bengkulu', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
 
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+,
+    {
+        text: 'DI Yogyakarta', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'DKI Jakarta', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Gorontalo', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Jambi', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Jawa Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Jawa Tengah', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Jawa Timur', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kalimantan Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kalimantan Selatan', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kalimantan Tengah', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kalimantan Timur', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kalimantan Utara', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: ' Kepulauan Bangka Belitung', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Kepulauan Riau', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Lampung', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Maluku', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Maluku Utara', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Nusa Tenggara Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Nusa Tenggara Timur', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Papua', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Papua Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Riau', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sulawesi Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sulawesi Selatan', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sulawesi Tengah', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sulawesi Tenggara', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sulawesi Utara', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sumatera Barat', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sumatera Selatan', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
+    ]
+    },
+    {
+        text: 'Sumatera Utara', expanded: false, children: [
+        {
+            text: 'Penguasaan', expanded: false, children: [
+
+        ]
+        },
+        {
+            text: 'Pemilikan', expanded: false, children: [
+           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+        ]
+        },
+        {
+            text: 'Penggunaan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+
+        ]
+        },
+        {
+            text: 'Pemanfaatan', expanded: false, children: [
+            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+
+
+        ]
+        }
     ]
     }
+
+
+
+
+
+
 
 ];
 
