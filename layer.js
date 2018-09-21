@@ -611,6 +611,34 @@ Heron.options.layertree.tree = [
     ]
     },
     {
+      text: 'Pesisir', expanded: false, children: []
+    },
+    {
+      text: 'Pulau Kecil', expanded: false, children: []
+    },
+    {
+      text: 'Pulau Kecil Terluar', expanded: false, children: []
+    },
+    {
+      text: 'Perbatasan', expanded: false, children: []
+    },
+    {
+      text: 'Situ/Danau/Embung/Waduk', expanded: false, children: []
+    },
+    {
+      text: 'Situs Bersejarah', expanded: false, children: []
+    },
+    {
+      text: 'Kawasan Ekonomi Khusus', expanded: false, children: []
+    },
+    {
+      text: 'Kawasan Strategis Nasional', expanded: false, children: []
+    },
+
+    {
+      text: 'Provinsi', expanded: false, children: [
+
+    {
         text: 'Aceh', expanded: false, children: [
         {
             text: 'Penguasaan', expanded: false, children: [
@@ -619,18 +647,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -646,18 +674,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -673,18 +701,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -700,18 +728,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -728,18 +756,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -755,18 +783,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -782,18 +810,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -809,18 +837,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -836,18 +864,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -863,18 +891,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -890,18 +918,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -917,18 +945,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -944,18 +972,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -971,18 +999,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -998,18 +1026,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1025,18 +1053,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1052,18 +1080,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1079,18 +1107,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1106,18 +1134,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1133,18 +1161,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1160,18 +1188,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1187,18 +1215,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1214,18 +1242,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1241,18 +1269,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1268,18 +1296,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1295,18 +1323,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1322,18 +1350,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1349,18 +1377,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1376,18 +1404,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1403,18 +1431,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1430,18 +1458,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1457,18 +1485,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1484,18 +1512,18 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
@@ -1511,24 +1539,28 @@ Heron.options.layertree.tree = [
         },
         {
             text: 'Pemilikan', expanded: false, children: [
-           {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
+           {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
         ]
         },
         {
             text: 'Penggunaan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Penggunaan Tanah"}
 
         ]
         },
         {
             text: 'Pemanfaatan', expanded: false, children: [
-            {nodeType: "gx_layer", layer: "Peta Kepemilikan Tanah"}
+            {nodeType: "gx_layer", layer: "Peta Pemanfaatan Tanah"}
 
 
         ]
         }
     ]
     }
+
+      ]
+    }
+
 
 
 
