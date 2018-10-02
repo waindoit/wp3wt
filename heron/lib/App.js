@@ -19,7 +19,7 @@ Ext.namespace("Heron.globals");
 
 /** REST Services specific to Heron. */
 Heron.globals = {
-    serviceUrl: '/bpn2015/heron/cgi-bin/heron.cgi',
+    serviceUrl: '/wp3wt/heron/cgi-bin/heron.cgi',
     version: '1.0.5',
     imagePath: undefined
 };

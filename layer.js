@@ -48,7 +48,7 @@ var url = window.location.toString();
 
 
 OpenLayers.Util.onImageLoadErrorColor = "transparent";
-OpenLayers.ProxyHost = "http://tematik.bpn.go.id:81/bpn2015/heron/cgi-bin/proxy.cgi?url=";
+OpenLayers.ProxyHost = "http://10.18.0.122/wp3wt/cgi-bin/proxy.cgi?url=";
 Ext.BLANK_IMAGE_URL = 'http://cdnjs.cloudflare.com/ajax/libs/extjs/3.4.1-1/resources/images/default/s.gif';
 
 /*
@@ -75,7 +75,7 @@ Heron.options.map.settings = {
      center: '12721320.414, -19474.333',
      maxResolution: 'auto',
      xy_precision: 3,
-     zoom: 5,
+     zoom: 7,
      numZoomLevels: 21,
      theme: null,
 
@@ -254,13 +254,13 @@ Heron.options.map.layers = [
     //         {layers: "Countries,Borders,Coastlines", format: 'image/png'},
     //         {singleTile: true, isBaseLayer: true, visibility: false, noLegend: true, transitionEffect: 'resize'}
     // ),
-    new OpenLayers.Layer.Bing(
-            "Bing Imagery",
-            {key: "ApTJzdkyN1DdFKkRAE6QIDtzihNaf6IWJsT-nQ_2eMoO4PN__0Tzhl2-WgJtXFSp",
-             type: "AerialWithLabels",visibility: false},
-            {singleTile: false, buffer: 0, isBaseLayer: true}
-
-    ),
+    //new OpenLayers.Layer.Bing(
+    //        "Bing Imagery",
+    //        {key: "ApTJzdkyN1DdFKkRAE6QIDtzihNaf6IWJsT-nQ_2eMoO4PN__0Tzhl2-WgJtXFSp",
+    //         type: "AerialWithLabels",visibility: false},
+    //        {singleTile: false, buffer: 0, isBaseLayer: true}
+//
+    //),
     // new OpenLayers.Layer.Google(
     //         "Google Satellite",
     //         {type: google.maps.MapTypeId.SATELLITE, visibility: false},
@@ -280,26 +280,6 @@ Heron.options.map.layers = [
     // ),
 
 
-    new OpenLayers.Layer.ArcGISCache(
-            "Vivid",
-            "https://BPN1_MyDG:Welcome2DG1!@services.digitalglobe.com/earthservice/gis/362d8725-2b17-45ae-a8df-57089a415144/rest/services/DigitalGlobe:ImageryTileService/MapServer/",
-            {isBaseLayer: true,
-             visibility: false,
-             transparent: true,
-             format: 'image/png',
-             //singleTile: true,
-             opacity: 100,
-             noLegend: false,
-             transitionEffect: 'resize',
-            //From layerInfo above
-            resolutions: resolutions,
-             tileSize: new OpenLayers.Size(layerInfo.tileInfo.cols, layerInfo.tileInfo.rows),
-             tileOrigin: new OpenLayers.LonLat(layerInfo.tileInfo.origin.x , layerInfo.tileInfo.origin.y),
-             maxExtent: layerMaxExtent,
-             projection: 'EPSG:' + layerInfo.spatialReference.wkid
-        }
-    ),
-
     new OpenLayers.Layer.Image(
             "None",
             Ext.BLANK_IMAGE_URL,
@@ -309,261 +289,70 @@ Heron.options.map.layers = [
     ),
 
     new OpenLayers.Layer.WMS(
-            "Peta Tanah Kritis",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "TANAH_KRITIS_25K", transparent: true, format: 'image/png' },
+            "Tanah Timbul / Musnah",
+            'http://10.18.0.122:8080/geoserver/wfs',
+            {layers: "INDONESIA_PROP", transparent: true, format: 'image/png' },
             {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize',
             // maxExtent: new OpenLayers.Bounds.toBBOX(),
             metadata: {
                 wfs: {
                     protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
+                    featurePrefix: 'wp3wt',
                     featureNS: 'http://opengeo.org/bpn',
                     downloadFormats: Heron.options.wfs.downloadFormats
                 }
             }
             }
-    ),
+    ),    
     new OpenLayers.Layer.WMS(
-            "Peta Ekosistem Pesisir",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "EKOSISTEM_PESISIR_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
+            "Pulau Kecil Terluar",
+            'http://10.18.0.122:8080/geoserver/wfs',
+            {layers: "PulauLuar", transparent: true, format: 'image/png' },
+            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize',
+            // maxExtent: new OpenLayers.Bounds.toBBOX(),
+            metadata: {
                 wfs: {
                     protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
+                    featurePrefix: 'wp3wt',
                     featureNS: 'http://opengeo.org/bpn',
                     downloadFormats: Heron.options.wfs.downloadFormats
                 }
             }
             }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Indikasi Tanah Terlantar",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "INDIKASI_TANAH_TERLANTAR_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
+    ),    
+	  new OpenLayers.Layer.WMS(
+            "Perbatasan",
+            'http://10.18.0.122:8080/geoserver/wfs',
+            {layers: "Perbatasandarat", transparent: true, format: 'image/png' },
+            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize',
+            // maxExtent: new OpenLayers.Bounds.toBBOX(),
+            metadata: {
                 wfs: {
                     protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
+                    featurePrefix: 'wp3wt',
                     featureNS: 'http://opengeo.org/bpn',
                     downloadFormats: Heron.options.wfs.downloadFormats
                 }
             }
             }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Infrastruktur Wilayah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "INFRASTRUKTUR_WILAYAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
+    ),    
+	new OpenLayers.Layer.WMS(
+            "Pulau Kecil",
+            'http://10.18.0.122:8080/geoserver/wfs',
+            {layers: "pulaukecil", transparent: true, format: 'image/png' },
+            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize',
+            // maxExtent: new OpenLayers.Bounds.toBBOX(),
+            metadata: {
                 wfs: {
                     protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Kemampuan Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "KEMAMPUAN_TANAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Kemiringan Lereng",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "KEMIRINGAN_LERENG_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Masalah Pertanahan",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "MASALAH_PERTANAHAN_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Perairan Alam",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "PERAIRAN_ALAM_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Rawan Bencana Alam",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "RAWAN_BENCANA_ALAM_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Pemanfaatan Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "PEMANFAATAN_TANAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Kepemilikan Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "PEMILIKAN_TANAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Penguasaan Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "PENGUASAAN_TANAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Tanah Objek Landreform",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "TANAH_OBJEK_LANDREFORM_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Tanah Negara",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "TANAH_NEGARA_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Lokasi Sertipikasi Massal",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "LOKASI_SERTIPIKASI_MASSAL_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Tanah Aset Pemerintah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "TANAH_ASET_PEMERINTAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Penggunaan Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "PENGGUNAAN_TANAH_NONKAB", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
-                    featureNS: 'http://opengeo.org/bpn',
-                    downloadFormats: Heron.options.wfs.downloadFormats
-                }
-            }
-            }
-    ),
-    new OpenLayers.Layer.WMS(
-            "Peta Sebaran Bidang Tanah",
-            'http://tematik.bpn.go.id:8080/geoserver/wfs',
-            {layers: "SEBARAN_BIDANG_TANAH_25K", transparent: true, format: 'image/png' },
-            {singleTile: false, opacity: 0.9, isBaseLayer: false, visibility: false, noLegend: false, featureInfoFormat: 'application/vnd.ogc.gml', transitionEffect: 'resize', metadata: {
-                wfs: {
-                    protocol: 'fromWMSLayer',
-                    featurePrefix: 'tematik',
+                    featurePrefix: 'wp3wt',
                     featureNS: 'http://opengeo.org/bpn',
                     downloadFormats: Heron.options.wfs.downloadFormats
                 }
             }
             }
     )
-
-
+	
 
 
 
@@ -603,21 +392,31 @@ Heron.options.map.layers = [
 
 Ext.namespace("Heron.options.layertree");
 Heron.options.layertree.tree = [
+
     {
-      text: 'Indeks WP3WT', expanded: false, children: [
+        text: 'Data Dasar', expanded: true, children: [
+        {nodeType: "gx_layer", layer: "Open Street Map" },
+        // {nodeType: "gx_layer", layer: "Bing Imagery" },
+        // {nodeType: "gx_layer", layer: "Bing Satellite" },
+        // {nodeType: "gx_layer", layer: "Tata Ruang" },
+        // {nodeType: "gx_layer", layer: "Kawasan Hutan" },
+        // {nodeType: "gx_layer", layer: "Peta Dasar" },
+        {nodeType: "gx_layer", layer: "None" }
+    ]
+    },
+    {
+      text: 'Indeks WP3WT', expanded: true, children: [
 
           {
             text: 'Pesisir', expanded: false, children: []
           },
-          {
-            text: 'Pulau Kecil', expanded: false, children: []
-          },
-          {
-            text: 'Pulau Kecil Terluar', expanded: false, children: []
-          },
-          {
-            text: 'Perbatasan', expanded: false, children: []
-          },
+          
+		   {nodeType: "gx_layer", layer: "Tanah Timbul / Musnah"}
+		   ,{nodeType: "gx_layer", layer: "Pulau Kecil"}
+		   ,{nodeType: "gx_layer", layer: "Pulau Kecil Terluar"}
+		   ,{nodeType: "gx_layer", layer: "Perbatasan"}
+          ,
+          
           {
             text: 'Situ/Danau/Embung/Waduk', expanded: false, children: []
           },
@@ -1565,18 +1364,6 @@ Heron.options.layertree.tree = [
 
     {
       text: 'Evaluasi Pemanfaatan Kawasan', expanded: false, children: []
-    },
-
-    {
-        text: 'Data Dasar', expanded: true, children: [
-        {nodeType: "gx_layer", layer: "Open Street Map" },
-        // {nodeType: "gx_layer", layer: "Bing Imagery" },
-        // {nodeType: "gx_layer", layer: "Bing Satellite" },
-        // {nodeType: "gx_layer", layer: "Tata Ruang" },
-        // {nodeType: "gx_layer", layer: "Kawasan Hutan" },
-        // {nodeType: "gx_layer", layer: "Peta Dasar" },
-        {nodeType: "gx_layer", layer: "None" }
-    ]
     }
 
 

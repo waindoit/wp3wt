@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!C:\Python27\ArcGIS10.1\python.exe
 
 
 """This is a blind proxy that we use to get around browser
@@ -57,12 +57,13 @@ allowedDomains = [
     'ucdavis.edu',
     'sensors.geonovum.nl',
     'zeeland.nl',
-    'vivid.net.id'
+    'vivid.net.id',
+	'10.18.0.122'
 ]
 
 # Add to have specific hosts, mostly IP-addresses
 allowedHosts = [
-    'vivid.net.id'
+    '10.18.0.122'
 ]
 
 method = os.environ["REQUEST_METHOD"]
